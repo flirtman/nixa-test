@@ -7,6 +7,7 @@ import Section4 from './Section4';
 import Slider from '../../components/Slider';
 import Section5 from './Section5';
 import SplitSection from '../../components/SplitSection';
+import Subscribe from '../../components/Subscribe';
 
 import './styles.scss';
 
@@ -21,6 +22,7 @@ const HomePage = () => {
         <Slider/>
         <Section5/>
         <SplitSection/>
+        <Subscribe/>
       </>
   )
 };

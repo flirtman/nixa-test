@@ -1,0 +1,42 @@
+@import "src/globalStyles/index";
+
+.subscribe-wrapper {
+  padding: 100px 25px;
+  text-align: center;
+  h2 {
+    margin: 25px 0;
+    font-style: italic;
+    color: $pColor;
+  }
+  form {
+    max-width: 530px;
+    margin: 0 auto;
+  }
+  input {
+    padding: 0 25px;
+    background-color: transparent;
+    border: 1px solid $GrayExtraLightColor;
+    width: 400px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    &::placeholder {
+      font-style: italic;
+      color: $GrayExtraLightColor;
+    }
+  }
+  button {
+    background-color: $generalColor;
+    width: 125px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-color: transparent;
+    float: right;
+    font-size: 20pt;
+  }
+}
