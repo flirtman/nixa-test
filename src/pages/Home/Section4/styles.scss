@@ -1,0 +1,72 @@
+@import "src/globalStyles/index";
+
+.section4-wrapper {
+  .right-call {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    img {
+      margin: auto;
+      display: block;
+    }
+  }
+  .left-call {
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    hr {
+      background-color: transparent;
+      border-bottom: 1px solid $pColor;
+      width: 50px;
+      margin: 25px auto;
+    }
+  }
+  text-align: center;
+  h2 {
+    font-size: 16pt;
+    color: $hColor;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  p {
+    font-size: 12pt;
+    color: $pColor;
+    font-weight: 400;
+    max-width: 1290px;
+    margin: 0 auto;
+    text-align: justify;
+  }
+  .right-call-top {
+    height: 70%;
+    padding: 50px;
+    width: 100%;
+  }
+  .right-call-bottom {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30%;
+    width: 100%;
+  }
+  .triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 25px solid white;
+    margin: auto;
+  }
+  @media only screen and (max-width: 992px) {
+    right-call-top {
+      height: auto;
+      padding: 25px;
+    }
+    .right-call-bottom {
+      height: 200px;
+    }
+  }
+}
