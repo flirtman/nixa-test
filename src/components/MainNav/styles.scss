@@ -1,0 +1,43 @@
+@import "src/globalStyles/index";
+
+#maine-nav-center {
+  margin: 0 auto;
+  display: table;
+  padding-top: 35px;
+  ul {
+    padding-left: 0;
+    li {
+      display: inline-block;
+      a {
+        color: $navColor;
+        font-weight: 600;
+        font-size: 13pt;
+        text-transform: uppercase;
+        &:before {
+          content: ".";
+          display: inline-block;
+          margin-right: 35px;
+        }
+      }
+    }
+    li:nth-child(3) {
+      a {
+        margin: 0 30px;
+      }
+    }
+    li:nth-child(3), li:nth-child(4) {
+      a {
+        &:before {
+          display: none;
+        }
+      }
+    }
+    li:first-child {
+      a {
+        &:before {
+          display: none;
+        }
+      }
+    }
+  }
+}
