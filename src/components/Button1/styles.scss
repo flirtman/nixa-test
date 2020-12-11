@@ -1,0 +1,21 @@
+@import "src/globalStyles/index";
+
+.button1 {
+  a {
+    border: 1px solid;
+    padding: 20px 60px;
+    display: inline-block;
+    &.bright {
+      border-color: white;
+      color: white;
+    }
+  }
+  &:hover {
+    a {
+      &.bright {
+        border-color: $generalColor;
+        color: $generalColor;
+      }
+    }
+  }
+}

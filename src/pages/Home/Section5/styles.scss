@@ -1,0 +1,65 @@
+@import "src/globalStyles/index";
+
+.section5-wrapper {
+  .right-call {
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    hr {
+      background-color: transparent;
+      border-bottom: 1px solid $pColor;
+      width: 50px;
+      margin: 25px auto;
+    }
+  }
+  .right-call-top {
+    height: 50%;
+    padding: 50px;
+    width: 100%;
+  }
+  .right-call-bottom {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50%;
+    width: 50%;
+    display: inline-block;
+  }
+  .left-call {
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    min-height: 535px;
+    hr {
+      background-color: transparent;
+      border-bottom: 1px solid $pColor;
+      width: 50px;
+      margin: 25px auto;
+    }
+  }
+  .left-call-bottom {
+    height: 50%;
+    padding: 50px;
+    width: 100%;
+    margin-top: -6px;
+  }
+  .left-call-top {
+    height: 50%;
+    width: 50%;
+    display: inline-block;
+  }
+  .left-call-top, .left-call-bottom, .left-call, .right-call-bottom, .right-call-top, .right-call, .middle-call {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  @media only screen and (max-width: 992px) {
+    right-call-top {
+      height: auto;
+      padding: 25px;
+    }
+    .right-call-bottom {
+      height: 200px;
+    }
+  }
+}
