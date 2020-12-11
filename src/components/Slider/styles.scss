@@ -1,0 +1,38 @@
+@import "src/globalStyles/index";
+
+.slider-wrapper {
+  .carousel-inner {
+    min-height: 385px;
+    background-color: $GrayLightColor;
+  }
+  .carousel-caption {
+    position: initial;
+    padding-top: 0;
+    margin-top: 115px;
+    h3 {
+      font-size: 18pt;
+      color: $hColor;
+      font-weight: 600;
+      span {
+        font-weight: 400;
+      }
+    }
+    p {
+      font-size: 16pt;
+      color: $pColor;
+      font-weight: 400;
+      max-width: 1290px;
+      margin: 0 auto;
+      font-style: italic;
+    }
+  }
+  .carousel-indicators {
+    margin-bottom: 100px;
+    li {
+      background-color: darkgray;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+    }
+  }
+}
